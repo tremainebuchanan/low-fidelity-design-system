@@ -1,0 +1,87 @@
+body, html{
+    font-family: 'PT Sans', sans-serif;
+}
+/*
+* Navigation Bar Element
+*/
+.nav{
+    padding: 12px 6px 6px 0px;
+    float: right;
+}
+
+/*
+* Anchor Links
+*/
+
+a{
+    text-decoration: none;
+    background-color: white;
+    color:white;
+}
+
+/*
+* Block Colors
+*/
+.dark{
+    background-color: #696464;
+    color:#ffffff;
+}
+
+.light{
+    background-color: #e9e5dd;
+    color:#696464;
+}
+
+/*
+* Divider Element - divides the blocks on the page
+*/
+.divider{
+    min-height: 12px;
+}
+
+/*
+* Divider Height Attributes
+*/
+.is-24{
+    height: 24px;
+}
+
+.is-32{
+    height: 32px;
+}
+
+.is-48{
+    height: 48px;
+}
+
+.is-60{
+    height: 60px;
+}
+/** End of Divider Height Attributes **/
+
+.block{    
+    padding: 10px 0px 5px 0px;
+}
+
+.fold{
+    height:300px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 6px;
+}
+
+.image{
+    height: 300px;
+}
+
+.is-sm{
+    height: 200px;
+}
+
+h1{
+    padding-left:48px;
+}
+
